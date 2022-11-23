@@ -38,6 +38,12 @@ section {
   min-height: min(100vh, 1080px);
   display: flex;
   align-items: center;
+  padding: 5rem 0;
+}
+
+ul,
+li {
+  list-style: none;
 }
 
 .container {

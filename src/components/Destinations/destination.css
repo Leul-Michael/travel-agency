@@ -1,0 +1,42 @@
+.destinations-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    padding-top: 3rem;
+}
+
+.destinations-grid .destination {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+}
+
+.destinations-grid .destination__detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--clr-n-900);
+    border-radius: 0px 0px 24px 24px;
+    padding: 2rem;
+    color: var(--clr-desc);
+}
+
+.destinations-grid .destination__detail .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinations-grid .destination__detail .navigation {
+    display: flex;
+    gap: .5rem;
+}

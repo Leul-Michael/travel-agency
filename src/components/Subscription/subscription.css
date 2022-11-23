@@ -1,9 +1,10 @@
 .subscription {
-    height: 100vh;
+    height: min(100vh, 1080px);
+    padding: 0;
 }
 
 .subscription .container {
-    height: 60%;
+    height: min(60%, 500px);
 }
 
 .subs-container {
