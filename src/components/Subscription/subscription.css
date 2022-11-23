@@ -1,0 +1,69 @@
+.subscription {
+    height: 100vh;
+}
+
+.subscription .container {
+    height: 60%;
+}
+
+.subs-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: #DFD7F9;
+    border-radius: 129px 20px 20px 20px;
+    height: 100%;
+}
+
+.subs-container h4 {
+    font-weight: 600;
+    font-size: 33px;
+    text-align: center;
+    max-width: 80%;
+    color: var(--clr-desc);
+}
+
+.subs-container .btn-cta {
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+}
+
+.float-msg {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.subs-container form {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.subs-container form .input-box {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    display: flex;
+}
+
+.subs-container form .input-box .icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.subs-container form .input-box input {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    padding-inline: 3rem 1rem;
+    font-family: inherit;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-heading: #181E4B;
+  --clr-tagline: #DF6951;
+  --clr-desc: #5E6282;
+  --clr-cta: #F1A501;
+
+  --clr-n-900: #fff;
+  --clr-n-200: #282828;
+  --clr-n-100: #141414;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-n-900);
+  color: var(--clr-n-200);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+section {
+  min-height: min(100vh, 1080px);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.heading,
+.heading-sm {
+  font-size: 5.25rem;
+  font-family: 'Volkhov', serif;
+  color: var(--clr-heading);
+  line-height: 5rem;
+  padding: 1rem 0;
+}
+
+.heading-sm {
+  font-size: 3rem;
+  line-height: 3rem;
+  padding: 0;
+}
+
+.tagline {
+  text-transform: uppercase;
+  color: var(--clr-tagline);
+  font-weight: 700;
+}
+
+.desc {
+  color: var(--clr-desc);
+  font-weight: 500;
+}
+
+.page-title {
+  font-size: 1.1rem;
+  color: var(--clr-desc);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: none;
+  font-family: inherit;
+
+  cursor: pointer;
+}
+
+.btn-cta {
+  background: var(--clr-cta);
+  box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: 10px;
+  color: var(--clr-n-900);
+  padding: 0.85rem 1.5rem;
+}
+
+.btn-play {
+  display: flex;
+  align-items: center;
+}
+
+.btn-play .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DF6951;
+  box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+  padding: .75rem;
+  border-radius: 50%;
+  color: var(--clr-n-900);
+  margin-right: .5rem;
+  font-size: 1.5rem;
+}
